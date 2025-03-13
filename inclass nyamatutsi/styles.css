@@ -1,0 +1,316 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+} 
+#top-page{
+    background-image:url(img/zebra\ banner\ 2\ 1.png) ;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height:800px;
+    overflow-x: hidden;
+
+    nav{
+        text-align: center;
+        display: flex;
+    } 
+}
+
+
+#activities{
+    overflow-x: hidden;
+    width: 100%;
+    .img-containr{
+        display:flex;
+        justify-content: space-between;
+        padding-left: 8%;
+        padding-right: 8%;
+
+        
+        .img1{
+            background-image: url("img/Rectangle 17.png");
+            background-position: center;
+            width: 100%;
+            h3{
+                font-family: Gotham;
+                font-size: 20px;
+                color: #fff;
+                padding-top: 190px;
+                text-align: center;
+                font-weight: 500px;
+            }
+
+
+
+            p{
+                opacity: 0%;
+                transition: all .8s ease-in-out;
+            }
+        }  
+
+            p:hover{
+                opacity: 100%;
+                color: #fff;
+            }
+           
+
+
+
+        .img2{
+            background-image: url("img/Rectangle 16.png");
+            background-position: center;
+            width: 100%;
+            h3{
+                font-family: Gotham;
+                font-size: 20px;
+                color: #fff;
+                padding-top: 190px;
+                text-align: center;
+                font-weight: 500px;
+            }
+
+
+
+            p{
+                opacity: 0%;
+                transition: all .8s ease-in-out;
+            }
+        }
+
+        .img3{
+            background-image: url("img/Rectangle 18.png");
+            background-position: center;
+            width: 100%;
+
+            h3{
+                font-family: Gotham;
+                font-size: 20px;
+                color: #fff;
+                padding-top: 190px;
+                text-align: center;
+                font-weight: 500px;
+            }
+
+
+
+            p{
+                opacity: 0%;
+                transition: all .8s ease-in-out;
+            }
+        }
+
+        
+        p:hover{
+            opacity: 100%;
+            color: #fff;
+        }
+        .img4{
+            background-image: url("img/Rectangle 19.png");
+            background-position: center;
+            width: 100%;
+
+            h3{
+                font-family: Gotham;
+                font-size: 20px;
+                color: #fff;
+                padding-top: 190px;
+                text-align: center;
+                font-weight: 500px;
+            }
+
+
+
+            p{
+                opacity: 0%;
+                transition: all .8s ease-in-out;
+            }
+        }
+        p:hover{
+            opacity: 100%;
+            color: #fff;
+        }
+        .img5{
+            background-image: url("img/Rectangle 20.png");
+            background-position: center;
+            width: 100%;
+
+            h3{
+                font-family: Gotham;
+                font-size: 20px;
+                color: #fff;
+                padding-top: 190px;
+                text-align: center;
+                font-weight: 500px;
+            }
+
+
+
+            p{
+                opacity: 0%;
+                transition: all .8s ease-in-out;
+            }
+        }
+        p:hover{
+            opacity: 100%;
+            color: #fff;
+        }
+    }
+}
+
+
+#testimonials{
+    overflow-x: hidden;
+    .feed{
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+        padding-left: 10%;
+        padding-right: 10%;
+        gap: 10px;
+    }
+    
+    .img6{
+        background-image: url("img/Rectangle 46.png");
+        background-color: black;
+        background-position: center;
+        background-size: cover;
+        position: relative;
+        p{
+            font-family: Gotham;
+            font-weight: 500px;
+            font-style: italic;
+            font-size: 15px;
+            text-align: center;
+            color: #fff;
+            
+        }
+        .overlay{
+            height: 100%;
+            width: 100%;
+            opacity: 0.7;
+            background: linear-gradient(to bottom, #E75317);
+            position: absolute;
+        }
+        
+    }
+    .img7{
+        background-image: url("img/Rectangle 45.png");
+        background-position: center;
+        background-size: cover;
+         
+    }p{
+        font-family: Gotham;
+        font-weight: 500px;
+        font-style: italic;
+        font-size: 15px;
+        text-align: center;
+        color: #fff;
+        padding-top: 360px;
+    }
+    .img8{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        border: 1px solid #F50D0D;
+        img{
+            width: 100px;
+            padding-top: 60px;
+        }
+        p{
+            color: black;
+            padding-top: 40px;
+            font-style: normal;
+
+        }
+        hr{
+            color: #E75317;
+            width: 100px;
+            border: 1px solid #E75317;
+            margin-left: 60px;
+            margin-top: 40px;
+        }
+        .p-t{
+            padding-top: 0px;
+            font-style: italic;
+            font-family: inherit;
+        }
+    }
+}
+
+#gallery{
+    overflow-x: hidden;
+    .gallery-img{
+        margin-left: 8.3%;
+        margin-right: 8.3%;
+    }
+    .container{
+        display: flex;
+        width: 90%;
+        margin-left: 8.3%;
+        margin-top: 25px;
+        gap: 10px;
+        margin-bottom: 50px;
+        
+        .card{
+            border-radius: 0%;
+        }
+        .img9{
+            display: flex;
+            justify-self:end;
+            margin-left: 20px;
+        }
+    }
+   
+}
+
+footer{
+    .row{
+        color: #fff;
+        .ul{
+            color: #fff;
+            .li{
+                color: #fff;
+            }
+        }
+    }
+}
